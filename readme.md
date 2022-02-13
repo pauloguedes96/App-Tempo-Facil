@@ -1,0 +1,1 @@
+App desenvolvido com javascript, css, html e consumo da API de clima da Weather API.
