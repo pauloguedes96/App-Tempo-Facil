@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./style.css" rel="text/css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="header">App Tempo Fácil</div>
+
+        <input id="search" type="text" placeholder="Digite o nome da cidade" onkeyup="recebeDados()">
+
+        <div id="containIcon">
+            <img id="iconClima" src="" alt="">
+        </div>
+
+        <div id="tempContain">
+            <h1 id="tempMain">
+                <!-- Temperatura -->
+            </h1>
+        </div>
+
+        <p id="clima">
+            <!-- Clima -->
+        </p>
+
+        <div id="cityLocation">
+
+            <img src="./icons/location.png" alt="">
+
+            <p id="cidade">
+                <!-- Cidade -->
+            </p>
+
+        </div>
+
+        <div id="footer">
+
+            <div id="tempMaxMin">
+                <img src="./icons/termometro.png" alt="">
+                <div>
+                    <p id="temp_min">
+                        <!-- Min: 10°C -->
+                    </p>
+                    <p id="temp_max">
+                        <!-- Max: 21°C -->
+                    </p>
+                </div>
+            </div>
+
+            <div id="humidityContain">
+                <img src="./icons/umidade.png" alt="">
+                <div>
+                    <p id="humidity">
+                        <!-- 90% -->
+                    </p>
+                    <p>Umidade</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Dev. Guedes</p>
+        <a href="https://github.com/pauloguedes96">
+            <img src="./icons/GitHub-Mark-32px.png" alt="">
+        </a>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
